@@ -1,4 +1,11 @@
+import Hello,{ Head } from "./Data";
+
 const Home = () => {
-  return <h1>Home Page</h1>;
+  return (
+    <>
+      <Head />
+      <Hello/>
+    </>
+  );
 };
 export default Home;
