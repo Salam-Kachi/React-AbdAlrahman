@@ -1,10 +1,10 @@
-import Hello,{ Head } from "./Data";
+import Hello, { Head,homeStyle } from "./Data";
 
 const Home = () => {
+  
   return (
     <>
-      <Head />
-      <Hello/>
+      <h1 style={homeStyle}>Hello World</h1>
     </>
   );
 };
