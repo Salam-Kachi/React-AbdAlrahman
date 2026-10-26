@@ -1,10 +1,9 @@
-import Hello, { Head,homeStyle } from "./Data";
+import  "./Home.css";
 
 const Home = () => {
-  
   return (
     <>
-      <h1 style={homeStyle}>Hello World</h1>
+      <h1 id="hello">Hello World</h1>
     </>
   );
 };

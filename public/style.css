@@ -1,0 +1,12 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(0, 255, 255);
+  color: white;
+}
+ul li {
+  list-style: none;
+  padding: 10px;
+  background-color: rgb(0, 255, 255);
+  border-radius: 10px;
+}
