@@ -1,12 +1,10 @@
-import Home from "./Home";
-import Header from "./Header";
-import Footer from "./Footer";
-// import AnyName from "./Data";
+import { Header, Footer, Button } from "./components";
+
 function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Button />
       <Footer />
     </>
   );
