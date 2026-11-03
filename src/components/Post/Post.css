@@ -1,0 +1,17 @@
+.post{
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+h2{
+    color: #b61414;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+p{
+    color: #231ac4;
+    font-size: 16px;
+    line-height: 1.5;
+}
