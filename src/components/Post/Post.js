@@ -1,10 +1,10 @@
-import './Post.css';
+import "./Post.css";
 
-const Post = ({ title, description }) => {
+const Post = ({ title, desc }) => {
   return (
     <div className="post">
       <h2>{title}</h2>
-      <p>{description}</p>
+      <p>{desc}</p>
     </div>
   );
 };

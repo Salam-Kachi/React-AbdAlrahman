@@ -1,4 +1,4 @@
-const Button = (props) => {
+const Button = ({ title }) => {
   return (
     <button
       style={{
@@ -11,7 +11,7 @@ const Button = (props) => {
         fontWeight: "bold",
       }}
     >
-      {props.title}
+      {title}
     </button>
   );
 };
